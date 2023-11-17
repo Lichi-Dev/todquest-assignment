@@ -8,6 +8,9 @@ import Footer from "./components/Footer";
 import Newsletter from "./components/Newsletter";
 import PopularCoupon from "./components/PopularCoupon";
 import DealOfTheDay from "./components/DealOfTheDay";
+import PopularMembership from "./components/PopularMembership";
+import HowItWorks from "./components/HowItWorks";
+import Team from "./components/Team";
 
 function App() {
   return (
@@ -16,7 +19,10 @@ function App() {
       <Hero />
       <PopularCoupon />
       <DealOfTheDay />
+      <PopularMembership />
       <Newsletter />
+      <HowItWorks />
+      <Team />
       <Footer />
     </>
   );
